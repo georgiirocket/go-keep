@@ -18,20 +18,20 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": [
-    "src"
-  ],
-  "baseUrl": ".",
+    "jsx": "react-jsx",
+    "baseUrl": ".",
     "paths": {
       "@/src/*": [
         "./src/*"
       ],
-      "@/root/*": [
-        "./*"
+      "@/wailsjs/*": [
+        "./wailsjs/*"
       ]
     },
+  },
+  "include": [
+    "src"
+  ],
   "references": [
     {
       "path": "./tsconfig.node.json"

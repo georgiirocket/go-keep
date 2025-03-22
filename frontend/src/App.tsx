@@ -1,11 +1,11 @@
-import './App.css'
 //import { Greet } from '../wailsjs/go/main/App'
+import ThemeProvider from '@/src/common/providers/theme'
 
 function App() {
   return (
-    <div className="h-dvh w-dvw">
+    <ThemeProvider>
       <h1 className="w-full text-center">Hello app!!</h1>
-    </div>
+    </ThemeProvider>
   )
 }
 
