@@ -18,6 +18,7 @@ module.exports = {
     },
     colors: {
       mainColor: '#ff6c38',
+      white: '#ffffff',
     },
   },
   darkMode: 'class',
