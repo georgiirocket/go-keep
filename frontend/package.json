@@ -11,6 +11,8 @@
     "lint:format": "eslint --fix --ext \".ts,.tsx\" \"src/**/*.{ts,tsx,*.ts,*tsx}\""
   },
   "dependencies": {
+    "@heroui/react": "^2.7.5",
+    "framer-motion": "^12.5.0",
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
